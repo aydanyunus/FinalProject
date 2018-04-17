@@ -41,12 +41,13 @@ a{
     }
 }
 #slider {
+    overflow: hidden;
     .swiper-container {
         max-width: 800px;
         min-height: 400px;
-        overflow: visible;
+        overflow: visible;        
         .swiper-wrapper {
-            transform: translate3d(-800px, 0px, 0px);       
+            transform: translate3d(-800px, 0px, 0px);    
             .swiper-slide {
                 margin: 0 auto;
                 position: relative;
@@ -60,8 +61,20 @@ a{
                         opacity: 1;
                     }
                     .slide-content {
-                        p, .icon-date {
-                            display: block;
+                        p {
+                            a {
+                                color: $hovercolor;
+                            }
+                            span {
+                                color: $hovercolor;
+                            }
+                        }
+                        .icon-date {
+                            p {
+                                i, span {
+                                    color: white;
+                                }
+                            }
                         }
                     }
                 } 
@@ -71,18 +84,17 @@ a{
                     padding: 70px 0px;
                     z-index: 1;
                     p {
-                        display: none;
                         a {
                             font-size: 13px;
                             font-weight: 700;
-                            color: $hovercolor;
+                            color: transparent;                            
                             &:hover {
                                 color: white;
                                 transition: 0.3s all ease-in-out;
                             }
                         }
                         span {
-                            color: $hovercolor;
+                            color: transparent;
                         }
                     }
                     h2 {
@@ -103,14 +115,13 @@ a{
                     }    
                     .icon-date {
                         margin-top: 30px;
-                        display: none;  
                         @media screen and (max-width: 400px) {
                             margin-top: 0px;
                         }                      
                         p {
                             display: inline-block;                 
                             i, span {
-                                color: white;
+                                color: transparent;
                                 font-size: 13px;
                             }
                             i {
@@ -132,25 +143,29 @@ a{
                 background: url(../images/slide-6-1170x616.jpg);
                 background-size: cover;                                     
             } 
-        }
-        .swiper-pagination {
-            bottom: -20px;
-            span {
-                cursor: pointer;
-                width: 53px;
-                height: 6px;
-                margin: 0 6px;
-                box-shadow: none;
-                border: none;
-                border-radius: 0px;
-                background: #d4d9e0;
-            }
-            .swiper-pagination-bullet-active {
-                background: $maincolor;
-            }
-           
-        }
+        }   
     } 
+    .swiper-pagination {
+        left: 40%;
+        text-align: center;
+        @media screen and (max-width: 400px){
+            left: 25%;
+        }
+        span {
+            cursor: pointer;
+            width: 53px;
+            height: 6px;
+            margin: 0 6px;
+            box-shadow: none;
+            border: none;
+            border-radius: 0px;
+            background: #d4d9e0;
+        }
+        .swiper-pagination-bullet-active {
+            background: $maincolor;
+            outline: none;
+        }
+    }
 }
 .posts {
     margin-top: 50px;

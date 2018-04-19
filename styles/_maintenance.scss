@@ -1,4 +1,5 @@
 @import '_variables.scss';
+@import '_header.scss';
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@
     letter-spacing: .05em;
 }
 #main {
+    margin-top: 100px;    
     .main-image {
         background: url("../images/breadcrumbs-maintenance.jpg") !important;
         background-position: center 50% !important;
@@ -72,7 +74,7 @@
             font-size: 30px;
             font-weight: bold;
             margin-top: -50px;
-            top: 50%;
+            top: 60%;
             text-align: center;
             width: 100%;                            
         }  

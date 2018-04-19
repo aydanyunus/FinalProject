@@ -1,4 +1,6 @@
 @import '_variables.scss';
+@import '_header.scss';
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +11,7 @@
     letter-spacing: .05em;
 }
 #main {
+    margin-top: 100px;    
     .beauty-list-main-image {
         background: url("../images/breadcrumbs-beauty.jpg");
         background-position: center 50%;
@@ -248,50 +251,9 @@
                 @media screen and (max-width: 400px) {
                     margin-left: 90px;                                         
                 } 
-                &::before, &::after {
-                    content: '';                    
-                    position: absolute;
-                    top: 50%;
-                    width: 20px;
-                    height: 20px;
-                    border-radius: 50%;
-                    transition: 0.5s;
-                    z-index: 1;
-                    background: $maincolor;
-                }
-                &::before {
-                    left: -20px;
-                    transform: translate(-40%, -50%);           
-                }
-                &::after {
-                    right: -40px;
-                    transform: translate(-40%, -50%);
-                }
                 &:hover {
-                    &::before {
-                        display: block;
-                        animation: div1 1s;
-                    }
-                    &::after {
-                        display: block;                        
-                        animation: div2 1s;
-                    }
-                }
-                @keyframes div1 {
-                    50% {
-                        transform: translate(500%, -50%);
-                    }
-                    100% {
-                        transform: scale(4,4);
-                    }
-                }
-                @keyframes div2 {
-                    50% {
-                        transform: translate(-600%, -50%);
-                    }
-                    100% {
-                        transform: scale(4,4);                        
-                    }
+                    background: $maincolor;
+                    transition: 0.3s all ease-in-out;
                 }
             }            
         }

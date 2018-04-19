@@ -1,4 +1,5 @@
 @import '_variables.scss';
+@import '_header.scss';
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@
     letter-spacing: .05em;
 }
 #main {
+    margin-top: 100px;    
     .partnerus-main-image {
         background: url("../images/breadcrumbs-partner.jpg");
         background-position: center 50%;
@@ -43,6 +45,9 @@
     margin-top: 50px;
     .cooperation {
         margin-left: -25px;
+        @media screen and (max-width: 1000px) {
+            margin-left: 0px;                                         
+        }
         @media screen and (max-width: 400px) {
             margin-left: 0px;
         }
@@ -71,6 +76,13 @@
                 .icon-section-div {
                     margin-bottom: 20px;                    
                     .green-icon {
+                        @media screen and (max-width: 1000px){
+                            text-align: left;  
+                            margin-bottom: 10px; 
+                        }
+                        @media screen and (max-width: 400px){
+                            text-align: center;  
+                        }
                         i {
                             font-size: 74px;
                             color: $hovercolor;
@@ -80,6 +92,10 @@
                         letter-spacing: .05em;
                         padding-left: 75px;
                         padding-right: 0px;
+                        @media screen and (max-width: 1000px){
+                            padding-left: 0px;    
+                            display: inline;          
+                        }
                         @media screen and (max-width: 400px){
                             padding: 0px;
                             text-align: center;
@@ -147,6 +163,12 @@
         }
         .example-posts {
             margin-top: 50px;
+            @media screen and (max-width: 1000px){
+                margin-bottom: 200px;
+            }
+            @media screen and (max-width: 400px){
+                margin-bottom: 30px;
+            }
             .border-bottom {
                 border-bottom: 1px solid $bordercolor;
                 padding-bottom: 10px;
@@ -157,6 +179,12 @@
                     margin-bottom: 30px;                 
                     padding-left: 0px;
                     padding-right: 0px;
+                    @media screen and (max-width: 1000px) {
+                        .col-md-6 {
+                            padding-left: 0px;    
+                            padding-right: 0px;                                                                   
+                        }                                         
+                     }   
                     .beauty-img-part { 
                         @media screen and (max-width: 400px) {
                             padding-left: 0px;
@@ -175,8 +203,11 @@
                         padding: 30px 30px;
                         max-height: 100%;
                         min-height: 314px;
-                        @media screen and (max-width: 400px) {
+                        @media screen and (max-width: 1000px) {
                             margin-left: 0px;                                          
+                        }
+                        @media screen and (max-width: 400px) {
+                            margin-left: 0px;                                        
                         }
                         &::before {
                             content: '';
@@ -188,6 +219,12 @@
                             border-right: 18px solid #f7f8f9;
                             border-top: 15px solid transparent;
                             border-bottom: 18px solid transparent;
+                            @media screen and (max-width: 1000px) {
+                                content: none;                                         
+                            }
+                            @media screen and (max-width: 400px) {
+                                content: none;                                         
+                            }
                         }
                         .beauty-text-panel {
                             color: $maincolor;
@@ -306,6 +343,9 @@
                         margin-left: -15px;
                         max-height: 372px;
                         min-height: 372px;
+                        @media screen and (max-width: 1000px) {
+                            margin-left: 0px;                                         
+                        }
                         @media screen and (max-width: 400px) {
                             margin-left: 0px;                                          
                         }
@@ -348,6 +388,9 @@
     }
     .sidebar {
         margin-left: 24px;
+        @media screen and (max-width: 1000px) {
+            margin-left: 0px;                                         
+        }
         @media screen and(max-width: 400px) {
             margin-left: 0px;
         }

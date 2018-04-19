@@ -71,6 +71,16 @@
                     color: white;
                     min-height: 50px;
                     margin-top: -73px;
+                    &:hover {
+                        background: $maincolor;
+                        transition: 0.2s all ease-in-out;
+                    }
+                    @media screen and (max-width: 1000px) {
+                        margin-left: 85%;
+                    }
+                    @media screen and (max-width: 400px) {
+                        margin-left: 70%;
+                    }
                 }
             }
         }

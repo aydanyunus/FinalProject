@@ -1,4 +1,5 @@
 @import '_variables.scss';
+@import '_header.scss';
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@
     letter-spacing: .05em;
 }
 #main {
+    margin-top: 100px;    
     .buttons-main-image {
         background: url("../images/breadcrumbs-typography.jpg");
         background-position: center 50%;

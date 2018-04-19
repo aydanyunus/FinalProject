@@ -1,4 +1,5 @@
 @import '_variables.scss';
+@import '_header.scss';
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@
     letter-spacing: .05em;
 }
 #main {
+    margin-top: 100px;    
     .competitions-main-image {
         background: url("../images/breadcrumbs-competitions.jpg");
         background-position: center 50%;
@@ -90,7 +92,7 @@
                     font-weight: 700;
                     line-height: 1.5;
                 }
-                button {
+                .read-more-btn {
                     color: white;
                     background: #3e3e3e;
                     font-weight: 700;

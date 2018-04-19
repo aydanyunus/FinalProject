@@ -1,4 +1,5 @@
 @import '_variables.scss';
+@import '_header.scss';
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@
     letter-spacing: .05em;
 }
 #main {
+    margin-top: 100px;    
     .singlepost-main-image {
         background: url("../images/breadcrumbs-post.jpg");
         background-position: center 50%;
@@ -41,6 +43,7 @@
 }
 #list {
     margin-top: 50px;
+    margin-bottom: 50px;  
     .post-list {
         letter-spacing: .05em;        
         margin-left: -30px;     

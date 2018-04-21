@@ -244,7 +244,7 @@
                                 <tr>
                                     <td>
                                         <div class="counter col-md-12 col-xs-12">
-                                            <input type="number" class="form-input" name="Count" id="count" value="1" min="1" max="1000">
+                                            <input type="number" class="form-input" data-zeros="true" name="Count" id="count" value="1" min="1" max="1000">
                                             <span class="plus-minus up">+</span>
                                             <span class="plus-minus down">-</span>
                                         </div>
@@ -275,7 +275,7 @@
                                 <tr>
                                     <td>
                                         <div class="counter col-md-12 col-xs-12">
-                                            <input type="number" name="" id="" value="1" min="1" max="1000">
+                                            <input type="number" class="form-input" data-zeros="true" name="" id="" value="1" min="1" max="1000">
                                             <span class="plus-minus up">+</span>
                                             <span class="plus-minus down">-</span>
                                         </div>
@@ -385,7 +385,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12 footer-bottom">
                     <div class="col-md-4 col-xs-12 copyright text-left">
-                        <p>Inspire © 2018.
+                        <p>Inspire © <span>2018</span>.
                             <span>
                                 <a href="privacy-policy.html">Privacy Policy</a>
                             </span>
@@ -417,6 +417,7 @@
 
     <!-- JS script sources -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>    
     <script src="scripts/cart-page.js"></script>
 </body>
 

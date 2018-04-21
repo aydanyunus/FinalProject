@@ -58,7 +58,7 @@
         .text-color {
             color: $textcolor;
             &:hover {
-                color: $hovercolor;
+                color: $hovercolor !important;
                 transition: 0.3s all ease-in-out;
             }
         }

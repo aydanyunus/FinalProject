@@ -381,7 +381,7 @@
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -1634,7 +1634,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -1745,6 +1745,7 @@ a {
   padding: 20px 15px;
   min-height: 277px;
   background: #f7f8f9;
+  color: #5ec3d5;
 }
 #isotop-posts .isotop .margin-top .bottom-content a {
   color: #5ec3d5;
@@ -1982,7 +1983,7 @@ a {
   color: #1d1d1d;
 }
 #isotop-posts .sidebar .popular-posts .text-color:hover {
-  color: #cbda4a;
+  color: #cbda4a !important;
   transition: 0.3s all ease-in-out;
 }
 #isotop-posts .sidebar .popular-posts .icon-date {
@@ -2264,7 +2265,7 @@ a {
   color: #1d1d1d;
 }
 .sidebar .popular-posts .text-color:hover {
-  color: #cbda4a;
+  color: #cbda4a !important;
   transition: 0.3s all ease-in-out;
 }
 .sidebar .popular-posts .icon-date {
@@ -2745,7 +2746,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -3344,7 +3345,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -3951,7 +3952,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -4639,7 +4640,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -5246,7 +5247,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -5900,7 +5901,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -6623,7 +6624,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -7255,7 +7256,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -8006,7 +8007,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -8713,7 +8714,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -9475,7 +9476,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -9760,7 +9761,7 @@ a {
   color: #1d1d1d;
 }
 #about .our-team .sidebar .popular-posts .text-color:hover {
-  color: #cbda4a;
+  color: #cbda4a !important;
   transition: 0.3s all ease-in-out;
 }
 #about .our-team .sidebar .popular-posts .icon-date {
@@ -10368,7 +10369,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -10841,7 +10842,7 @@ a {
   color: #1d1d1d;
 }
 #list .sidebar .popular-posts .text-color:hover {
-  color: #cbda4a;
+  color: #cbda4a !important;
   transition: 0.3s all ease-in-out;
 }
 #list .sidebar .popular-posts .icon-date {
@@ -11449,7 +11450,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -12201,7 +12202,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -12995,7 +12996,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -13791,7 +13792,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -14527,7 +14528,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -15565,7 +15566,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -16215,7 +16216,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -17100,7 +17101,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -17718,7 +17719,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -18723,7 +18724,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -19130,7 +19131,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -19241,6 +19242,7 @@ a {
   padding: 20px 15px;
   min-height: 277px;
   background: #f7f8f9;
+  color: #5ec3d5;
 }
 #isotop-posts .isotop .margin-top .bottom-content a {
   color: #5ec3d5;
@@ -19478,7 +19480,7 @@ a {
   color: #1d1d1d;
 }
 #isotop-posts .sidebar .popular-posts .text-color:hover {
-  color: #cbda4a;
+  color: #cbda4a !important;
   transition: 0.3s all ease-in-out;
 }
 #isotop-posts .sidebar .popular-posts .icon-date {
@@ -20119,7 +20121,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -20230,6 +20232,7 @@ a {
   padding: 20px 15px;
   min-height: 277px;
   background: #f7f8f9;
+  color: #5ec3d5;
 }
 #isotop-posts .isotop .margin-top .bottom-content a {
   color: #5ec3d5;
@@ -20467,7 +20470,7 @@ a {
   color: #1d1d1d;
 }
 #isotop-posts .sidebar .popular-posts .text-color:hover {
-  color: #cbda4a;
+  color: #cbda4a !important;
   transition: 0.3s all ease-in-out;
 }
 #isotop-posts .sidebar .popular-posts .icon-date {
@@ -21108,7 +21111,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -21219,6 +21222,7 @@ a {
   padding: 20px 15px;
   min-height: 277px;
   background: #f7f8f9;
+  color: #5ec3d5;
 }
 #isotop-posts .isotop .margin-top .bottom-content a {
   color: #5ec3d5;
@@ -21456,7 +21460,7 @@ a {
   color: #1d1d1d;
 }
 #isotop-posts .sidebar .popular-posts .text-color:hover {
-  color: #cbda4a;
+  color: #cbda4a !important;
   transition: 0.3s all ease-in-out;
 }
 #isotop-posts .sidebar .popular-posts .icon-date {
@@ -22097,7 +22101,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -22208,6 +22212,7 @@ a {
   padding: 20px 15px;
   min-height: 277px;
   background: #f7f8f9;
+  color: #5ec3d5;
 }
 #isotop-posts .isotop .margin-top .bottom-content a {
   color: #5ec3d5;
@@ -22445,7 +22450,7 @@ a {
   color: #1d1d1d;
 }
 #isotop-posts .sidebar .popular-posts .text-color:hover {
-  color: #cbda4a;
+  color: #cbda4a !important;
   transition: 0.3s all ease-in-out;
 }
 #isotop-posts .sidebar .popular-posts .icon-date {
@@ -23086,7 +23091,7 @@ a {
 
 @media screen and (max-width: 992px) {
   .navbar-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar-collapse.collapse {
@@ -23197,6 +23202,7 @@ a {
   padding: 20px 15px;
   min-height: 277px;
   background: #f7f8f9;
+  color: #5ec3d5;
 }
 #isotop-posts .isotop .margin-top .bottom-content a {
   color: #5ec3d5;
@@ -23434,7 +23440,7 @@ a {
   color: #1d1d1d;
 }
 #isotop-posts .sidebar .popular-posts .text-color:hover {
-  color: #cbda4a;
+  color: #cbda4a !important;
   transition: 0.3s all ease-in-out;
 }
 #isotop-posts .sidebar .popular-posts .icon-date {

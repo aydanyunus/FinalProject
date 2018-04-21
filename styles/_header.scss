@@ -330,7 +330,7 @@ margin: -2px;
 
 @media screen and (max-width: 992px) {
     .navbar-toggle {
-        display: block; 
+        display: block !important; 
     }
     .navbar-collapse.collapse {
         display: none !important; 
@@ -352,5 +352,6 @@ margin: -2px;
         overflow-y: visible !important;      
     } 
 }
+
 
 

@@ -386,6 +386,7 @@
             }           
         }
     }
+    @import '_sidebar.scss';    
     .sidebar {
         margin-left: 24px;
         @media screen and (max-width: 1000px) {
@@ -467,7 +468,7 @@
                     }
                 }
             }
-        }      
+        }    
     }  
 }
 @import '_footer.scss';

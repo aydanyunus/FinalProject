@@ -9,10 +9,14 @@
     letter-spacing: .05em;
 }
 #coming-soon {
+    height: 100vh;
     background: url(../images/bg-soon-1920x955.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    min-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
     .text-center {
         margin-top: 30px;
         a {

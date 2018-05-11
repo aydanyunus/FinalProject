@@ -7,6 +7,9 @@ list-style-type: none;
 box-sizing: border-box;
 font-family: 'Montserrat', sans-serif;
 letter-spacing: .05em;
+    &:hover {
+        transition: 0.3s all ease-in-out;
+    }
 }
 .navbar {
 border-radius: 0; 
@@ -180,6 +183,20 @@ border: none;
 .navbar-fixed-top.shrink-active .secondary-navbar-nav .as-icon .cart-count {
     top: 2px; 
 }
+.secondary-navbar-nav .as-icon .cart-count {
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 0;
+    width: 23px;
+    height: 23px;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 23px;
+    background-color: $maincolor !important;
+    color: white; }
 
 .main-navbar-nav {
 transition: all 0.3s linear;
@@ -349,9 +366,9 @@ margin: -2px;
     .navbar-collapse.collapse.in {
         display: block !important;
         overflow-x: auto !important; 
-        overflow-y: visible !important;      
+        overflow-y: visible !important; 
     } 
+    .navbar {
+        position: relative !important;
+    }
 }
-
-
-

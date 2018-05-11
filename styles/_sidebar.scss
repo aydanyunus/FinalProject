@@ -51,6 +51,10 @@
         text-align: center;
         padding: 23px;
         border-bottom: 0px;
+        &:last-child {
+            border-bottom: 1px solid $bordercolor !important;
+            border-bottom: 1px !important;
+        }
         a {
             display: inline-block;
             margin-bottom: 10px;
@@ -85,10 +89,9 @@
                 color: white;
             }        
         }   
+
     }
-    .with-border-bottom{
-        border-bottom: 1px solid $bordercolor;
-    }
+   
     .banner-img {
         margin-top: 20px;
         img {
@@ -160,5 +163,6 @@
     .instagram-pics-part2 {
         margin-top: 15px;
     }
+
     
 }
